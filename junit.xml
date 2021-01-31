@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="11" failures="0" errors="0" time="6.922">
+  <testsuite name="MockAPIService" errors="0" failures="0" skipped="0" timestamp="2021-01-31T18:16:25" time="3.488" tests="1">
+    <testcase classname="MockAPIService getCustomers() the request succeeds should resolve with the Customer data" name="MockAPIService getCustomers() the request succeeds should resolve with the Customer data" time="0.029">
+    </testcase>
+  </testsuite>
+  <testsuite name="APIService" errors="0" failures="0" skipped="0" timestamp="2021-01-31T18:16:25" time="3.612" tests="2">
+    <testcase classname="APIService getcustomers the request succeeds should resolve with the Customer data" name="APIService getcustomers the request succeeds should resolve with the Customer data" time="0.022">
+    </testcase>
+    <testcase classname="APIService getcustomers the request succeeds the request fails should reject" name="APIService getcustomers the request succeeds the request fails should reject" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="CardComponent.vue" errors="0" failures="0" skipped="0" timestamp="2021-01-31T18:16:25" time="3.766" tests="1">
+    <testcase classname="CardComponent.vue renders props.msg when passed" name="CardComponent.vue renders props.msg when passed" time="0.044">
+    </testcase>
+  </testsuite>
+  <testsuite name="CardView.vue" errors="0" failures="0" skipped="0" timestamp="2021-01-31T18:16:25" time="4.642" tests="3">
+    <testcase classname="CardView.vue get customers data wrapper should create" name="CardView.vue get customers data wrapper should create" time="0.076">
+    </testcase>
+    <testcase classname="CardView.vue get customers data should have customer data" name="CardView.vue get customers data should have customer data" time="0.045">
+    </testcase>
+    <testcase classname="CardView.vue filter customers data should have customer data" name="CardView.vue filter customers data should have customer data" time="0.046">
+    </testcase>
+  </testsuite>
+  <testsuite name="sidebar.vue" errors="0" failures="0" skipped="0" timestamp="2021-01-31T18:16:25" time="5.096" tests="1">
+    <testcase classname="sidebar.vue wrapper should create" name="sidebar.vue wrapper should create" time="0.069">
+    </testcase>
+  </testsuite>
+  <testsuite name="GridComponent.vue" errors="0" failures="0" skipped="0" timestamp="2021-01-31T18:16:25" time="5.104" tests="3">
+    <testcase classname="GridComponent.vue wrapper should create" name="GridComponent.vue wrapper should create" time="0.046">
+    </testcase>
+    <testcase classname="GridComponent.vue renders props.msg when passed" name="GridComponent.vue renders props.msg when passed" time="0.02">
+    </testcase>
+    <testcase classname="GridComponent.vue deselection should have called deselect all" name="GridComponent.vue deselection should have called deselect all" time="0.025">
+    </testcase>
+  </testsuite>
+</testsuites>
